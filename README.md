@@ -55,10 +55,10 @@ The Python components of this repository are built and tested on **Python 3.12.3
 #### 🤖 Robotic Operating System (ROS2)
 | Package | Version | Description |
 | :--- | :--- | :--- |
-| **ROS2** | - | Core robotics middleware and node communication framework |
-| **Gazebo** | - | 3D robot physics and environment simulator |
-| **RViz** | - | 3D visualization tool for sensor data and robot state |
-| **MoveIt2** | - | Motion planning and robotic manipulation framework |
+| **ROS2** | Jazzy | Core robotics middleware and node communication framework |
+| **Gazebo** | v8.15.0 | 3D robot physics and environment simulator |
+| **RViz** | v14.1.23 | 3D visualization tool for sensor data and robot state |
+| **MoveIt2** | v2.12.4 | Motion planning and robotic manipulation framework |
 ---
 
 ##  🚀 Getting Started
