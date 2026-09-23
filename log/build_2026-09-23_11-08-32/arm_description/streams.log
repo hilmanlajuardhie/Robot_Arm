@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/alpha/DEV/Robot_Arm/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alpha/DEV/Robot_Arm/src/arm_description -DCMAKE_INSTALL_PREFIX=/home/alpha/DEV/Robot_Arm/install/arm_description
+[0.025s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.202s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.222s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.245s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.289s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.290s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.398s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[0.405s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.414s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.414s]   By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH
+[0.414s]   this project has asked CMake to find a package configuration file provided
+[0.414s]   by "joint_state_publisher_gui", but CMake did not find one.
+[0.414s] 
+[0.414s]   Could not find a package configuration file provided by
+[0.414s]   "joint_state_publisher_gui" with any of the following names:
+[0.414s] 
+[0.414s]     joint_state_publisher_guiConfig.cmake
+[0.414s]     joint_state_publisher_gui-config.cmake
+[0.414s] 
+[0.414s]   Add the installation prefix of "joint_state_publisher_gui" to
+[0.414s]   CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory
+[0.414s]   containing one of the above files.  If "joint_state_publisher_gui" provides
+[0.414s]   a separate development package or SDK, be sure it has been installed.
+[0.414s] 
+[0.414s] [0m
+[0.414s] -- Configuring incomplete, errors occurred!
+[0.419s] Invoked command in '/home/alpha/DEV/Robot_Arm/build/arm_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alpha/DEV/Robot_Arm/src/arm_description -DCMAKE_INSTALL_PREFIX=/home/alpha/DEV/Robot_Arm/install/arm_description
