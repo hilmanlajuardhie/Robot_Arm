@@ -17,8 +17,8 @@ A repository documenting the development and integration of a robotic arm system
 
 ## Table of Contents
 
-- [Domains](#-learning-domains)
-- [TechStacks](#️-environment--dependencies)
+- [Features](#-project-features)
+- [TechStacks](#-environment--dependencies)
 - [Get Started](#-getting-started)
 - [Status](#-status)
 - [Contributing](#-donate)
@@ -28,12 +28,10 @@ A repository documenting the development and integration of a robotic arm system
 
 ## 📚 Project Feature
 
-This repository is divided into four main technological pillars:
+This repository is focused on two main technological pillars:
 
-*   **Embedded Systems (C/C++):** Bare-metal programming, hardware abstraction, and register-level configuration for STM32 microcontrollers, alongside foundational C/C++ software development.
-*   **Computer Vision (Python):** Real-time object detection and video streaming pipelines utilizing YOLOv11, OpenCV, and GStreamer.
-*   **Reinforcement Learning (Python):** Training, evaluating, and simulating intelligent agents using Stable-Baselines3 (SB3), Gymnasium, and MuJoCo, backed by PyTorch and ONNX Runtime.
-*   **Robotics Middleware (ROS2):** Node architecture, robotic simulation, and motion planning utilizing core ROS2 tools including Gazebo, RViz, and MoveIt2.
+*   **Robotics Middleware (ROS2):** Node architecture, robotic simulation, and motion planning utilizing core ROS2 tools including RViz, and MoveIt2. This is tailored specifically for controlling the Ufactory 850 cobot on ROS2 Jazzy.
+*   **Computer Vision (Python):** Real-time object detection and video streaming pipelines utilizing YOLOv11 and OpenCV.
 
 ---
 
@@ -54,16 +52,6 @@ The Python components of this repository are built and tested on **Python 3.12.3
 | **OpenCV** | v4.6.0 | Image processing and GStreamer backend |
 | **Ultralytics** | v8.4.149 | YOLOv11 model inference and training |
 
-#### 🧠 Reinforcement Learning (RL) & Physics
-| Package | Version | Description |
-| :--- | :--- | :--- |
-| **PyTorch** | v2.13.0+cu126 | Deep learning tensor library (CUDA enabled) |
-| **MuJoCo Physics** | v3.13.0 | Advanced physics simulation engine |
-| **Gymnasium** | v1.3.0 | RL environment API |
-| **Stable-Baselines3**| v2.9.0 | RL algorithm implementations |
-| **ONNX Runtime** | v1.30.0 | Cross-platform machine learning inference |
-| **Pygame** | v2.5.8 | 2D rendering and window management |
-
 #### 🤖 Robotic Operating System (ROS2)
 | Package | Version | Description |
 | :--- | :--- | :--- |
@@ -77,24 +65,28 @@ The Python components of this repository are built and tested on **Python 3.12.3
 
 To explore the Python-based CV and RL projects, it is recommended to clone the repository and set up a virtual environment.
 ```bash
-git clone [https://github.com/hilmanlajuardhie/Learn.git](https://github.com/hilmanlajuardhie/Learn.git)
-cd Learn
+# Clone the repository
+git clone [https://github.com/hilmanlajuardhie/Robot_Arm.git](https://github.com/hilmanlajuardhie/Robot_Arm.git)
+cd Robot_Arm
 ```
 ```bash
+# Set up Python virtual environment for Vision tasks
 python3.12 -m venv .venv
 source .venv/bin/activate
 ```
+```bash
+# Build ROS2 Workspace
+colcon build
+```
 
-*Note: For the C/C++ STM32 projects and ROS2 workspaces, please refer to the specific `README.md` files located within their respective subdirectories for build instructions (e.g., Makefiles, Colcon build commands).*
+*Note: For the ROS2 workspaces, please refer to the specific `README.md` files located within their respective subdirectories for build instructions (e.g., Makefiles, Colcon build commands).*
 
 ---
 
 ## 🚧 Status
 
-- C/C++: Simulate a Cartesian Robots.
 - Vision: Streaming Real-time Edge-AI.
-- RL: Developing Mujoco Sim.
-- ROS2: Developing Nodes.
+- ROS2: Developing Nodes for Ufactory 850 integrtation.
 
 ## 🤝 Donate
 
