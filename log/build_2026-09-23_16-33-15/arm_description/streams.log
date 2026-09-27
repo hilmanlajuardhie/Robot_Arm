@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/alpha/DEV/Robot_Arm/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alpha/DEV/Learn/ROS2/install/uf_ros_lib:/home/alpha/DEV/Learn/ROS2/install/jr_srvcli:/home/alpha/DEV/Learn/ROS2/install/jr_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alpha/DEV/Robot_Arm/build/arm_description -- -j20 -l20
+[0.041s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.252s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.285s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.293s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.368s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.369s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.504s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[0.515s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.516s] -- Found robot_state_publisher: 3.3.4 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.664s] -- Found rviz2: 14.1.23 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.665s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.743s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.743s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.744s] -- Added test 'lint_cmake' to check CMake code style
+[0.744s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.745s] -- Added test 'xmllint' to check XML markup files
+[0.746s] -- Configuring done (0.7s)
+[0.751s] -- Generating done (0.0s)
+[0.752s] -- Build files have been written to: /home/alpha/DEV/Robot_Arm/build/arm_description
+[0.779s] Invoked command in '/home/alpha/DEV/Robot_Arm/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alpha/DEV/Learn/ROS2/install/uf_ros_lib:/home/alpha/DEV/Learn/ROS2/install/jr_srvcli:/home/alpha/DEV/Learn/ROS2/install/jr_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alpha/DEV/Robot_Arm/build/arm_description -- -j20 -l20
+[0.791s] Invoking command in '/home/alpha/DEV/Robot_Arm/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alpha/DEV/Learn/ROS2/install/uf_ros_lib:/home/alpha/DEV/Learn/ROS2/install/jr_srvcli:/home/alpha/DEV/Learn/ROS2/install/jr_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alpha/DEV/Robot_Arm/build/arm_description
+[0.800s] -- Install configuration: ""
+[0.800s] -- Installing: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/launch
+[0.800s] -- Installing: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/launch/display.launch.py
+[0.800s] -- Installing: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/urdf
+[0.800s] -- Installing: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/urdf/uf850.urdf.xacro
+[0.801s] -- Installing: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/meshes
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.801s] -- Installing: /home/alpha/DEV/Robot_Arm/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/environment/path.sh
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/environment/path.dsv
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/local_setup.bash
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/local_setup.sh
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/local_setup.zsh
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/local_setup.dsv
+[0.801s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/package.dsv
+[0.802s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.802s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.802s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.802s] -- Up-to-date: /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/package.xml
+[0.803s] Invoked command in '/home/alpha/DEV/Robot_Arm/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alpha/DEV/Learn/ROS2/install/uf_ros_lib:/home/alpha/DEV/Learn/ROS2/install/jr_srvcli:/home/alpha/DEV/Learn/ROS2/install/jr_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alpha/DEV/Robot_Arm/build/arm_description

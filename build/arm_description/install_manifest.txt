@@ -1,3 +1,5 @@
+/home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/launch/display.launch.py
+/home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/urdf/uf850.urdf.xacro
 /home/alpha/DEV/Robot_Arm/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
 /home/alpha/DEV/Robot_Arm/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
 /home/alpha/DEV/Robot_Arm/install/arm_description/share/arm_description/environment/ament_prefix_path.sh

@@ -43,6 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arm_description" TYPE DIRECTORY FILES
+    "/home/alpha/DEV/Robot_Arm/src/arm_description/launch"
+    "/home/alpha/DEV/Robot_Arm/src/arm_description/urdf"
+    "/home/alpha/DEV/Robot_Arm/src/arm_description/meshes"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/alpha/DEV/Robot_Arm/build/arm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_description")
 endif()
 
