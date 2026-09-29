@@ -1,1 +1,1 @@
-joint_state_publisher_gui:rclcpp:robot_state_publisher:rviz2:urdf:xacro
+joint_state_publisher:launch:launch_ros:robot_state_publisher:rviz2:urdf:xacro
